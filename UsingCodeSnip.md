@@ -2,21 +2,21 @@
 
 This FAQ is about using version 4 of the DelphiDabbler [**CodeSnip**](https://github.com/delphidabbler/codesnip) Code Snippets Repository Application.
 
-> If you have questions about compiling CodeSnip or using its source code please see the [Compiling & Source Code FAQ](./SouceCode.md).
+> If you have questions about compiling CodeSnip or using its source code please see the [Compiling & Source Code FAQ](./UsingCodeSnip.md).
 
 If you can't find an answer to your question below, and you've read the program's help file, create an issue on GitHub (GitHub account required).
 
-> Please note that ** CodeSnip version 3 and earlier are no longer supported**, This FAQ covers version 4 only.
+> Please note that **CodeSnip version 3 and earlier are no longer supported**, This FAQ covers version 4 only.
 
 ## Contents
 
-1. [I'm test compiling code within CodeSnip and get compiler warnings I don't want. Can I switch them off?](#FAQ-1)
-2. [Why can't I edit snippets from the on-line database?](#FAQ-2)
-3. [What changes does CodeSnip make to my system?](#FAQ-3)
-4. [What personal information is stored by CodeSnip?](#FAQ-4)
-5. [How do I get CodeSnip to use a proxy server to access the internet?](#FAQ-5)
-6. [How do I cross-reference my snippets using the "See also" field?](#FAQ-6)
-7. [Delphi XE2 generates a "F1026 File not Found ?????.dcu" error when test compiling snippets. What's going wrong?](#FAQ-7)
+1. [I'm test compiling code within CodeSnip and get compiler warnings I don't want. Can I switch them off?](#faq-1)
+2. [Why can't I edit snippets from the on-line database?](#faq-2)
+3. [What changes does CodeSnip make to my system?](#faq-3)
+4. [What personal information is stored by CodeSnip?](#faq-4)
+5. [How do I get CodeSnip to use a proxy server to access the internet?](#faq-5)
+6. [How do I cross-reference my snippets using the "See also" field?](#faq-6)
+7. [Delphi XE2 generates a "F1026 File not Found ?????.dcu" error when test compiling snippets. What's going wrong?](#faq-7)
 
 ## FAQ 1
 
@@ -28,9 +28,9 @@ Use the ***Tools | Preferences*** menu option to display the ***Preferences*** d
 
 If the symbol you require is not listed you can add it. If you do this make sure you select the correct version of the compiler where the directives were introduced to hide them from earlier compilers, otherwise compilation with the earlier compilers will fail.
 
-Click the dialogue box's Help button to get more detailed information on how to do this.
+Click the dialogue box's ***Help*** button to get more detailed information on how to do this.
 
-## FAQ2
+## FAQ 2
 
 **Why can't I edit snippets from the on-line database?**
 
@@ -90,7 +90,9 @@ CodeSnip will now use the proxy server each time it accesses the internet direct
 
 You can temporarily disable proxy access by un-ticking the ***Use proxy server*** check box and clicking ***OK***. Re-enable it when you like by ticking the check box again: CodeSnip will remember the previous data.
 
-Your password is stored in CodeSnip's config file in encrypted form. You must remember it because CodeSnip will **not** remind you of it.
+Your password is stored in CodeSnip's config file in encrypted form. 
+
+> **WARNING: You must remember your proxy password it because CodeSnip *is not able* remind you of it.**
 
 ## FAQ 6
 
@@ -108,7 +110,7 @@ The chosen snippets will now be displayed in the main window's ***See also*** se
 
 If you delete a user defined snippet that is cross referenced by one or more other snippets the deleted snippet will be removed from their ***See also*** fields.
 
-Note that you can't edit the cross-references for snippets from the online database - [FAQ 2](#FAQ-2) explains why not.
+Note that you can't edit the cross-references for snippets from the online database - [FAQ 2](#faq-2) explains why not.
 
 ## FAQ 7
 
@@ -118,13 +120,11 @@ Note that you can't edit the cross-references for snippets from the online datab
 
 This error is caused when Delphi XE2 can't find one of the RTL or VCL units referenced by the snippet being compiled.
 
-XE2 organises most of these units into "namespaces", meaning that the unit names must be qualified by prepending the name of the namespace. For example SysUtils belongs to the System namespace and its fully qualified name is System.SysUtils.
+XE2 organises most of these units into "namespaces", meaning that the unit names must be qualified by prepending the name of the namespace. For example `SysUtils` belongs to the `System` namespace and its fully qualified name is `System.SysUtils`.
 
 The problem arises because CodeSnip does not use fully qualified unit names when test compiling. This is for reasons of backward compatibility with older versions of Delphi.
 
-However, Delphi XE2 provides a command line option that lets you specify a list of namespaces to be searched when it encounters unqualified unit names. This is the `-NS` option. You append a semi-colon separated list of namespaces to be searched to the command, for example:
-
-* `-NSSystem;Vcl;Vcl.Bind`
+However, Delphi XE2 provides a command line option that lets you specify a list of namespaces to be searched when it encounters unqualified unit names. This is the `-NS` option. You append a semi-colon separated list of namespaces to be searched to the command, for example: `-NSSystem;Vcl;Vcl.Bind`
 
 You need to get CodeSnip to pass this parameter to the compiler. The method depends on the version of CodeSnip you are using.
 

@@ -15,7 +15,7 @@ If you can't find an answer to your question below, and you've read the program'
 5. [Do you have a version of the source code that compiles with Delphi versions earlier than Delphi XE?](#faq-5)
 6. [Will you publish the PHP source code for the web services that CodeSnip accesses?](#faq-6)
 7. [I want to use some of the CodeSnip source code in my project, what are the rules?](#faq-7)
-8. [How do I contribute code / bug fixes to the project?](#faq-9)
+8. [How do I contribute code / bug fixes to the project?](#faq-8)
 9. [How do I use TortoiseSVN to check out the CodeSnip source code?](#faq-9)
 10. [Can I use CodeSnip source code in my GPL or LGPL licensed project?](#faq-10)
 
@@ -37,7 +37,7 @@ CodeSnip is written in Delphi Object Pascal. The current code base is compiled u
 
 Some other utilities are also needed. See the "Build Tools" section of [`Build.html`](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Build.html)<sup>1</sup> for details.
 
-<sup>1</sup> the linked file relates to the current release. Versions for other releases etc. may vary. Look at the file Build.html for the release you are interested in.
+<sup>**1**</sup> the linked file relates to the current release. Versions for other releases etc. may vary. Look at the file `Build.html` for the release you are interested in.
 
 ### FAQ 3
 
@@ -53,7 +53,7 @@ In both cases third party code uses a variety of open source licenses. Any third
 
 The only exception is the code linked in from the Delphi RTL and VCL libraries. Given that you need Delphi to compile CodeSnip, that's not really an issue providing you don't distribute the Delphi library source code.
 
-<sup>1</sup> This license file relates to the current release. Versions for other releases etc. may vary slightly. Look at the file `License.html` for the release you are interested in.
+<sup>**1**</sup> This license file relates to the current release. Versions for other releases etc. may vary slightly. Look at the file `License.html` for the release you are interested in.
 
 ## FAQ 4
 
@@ -61,9 +61,9 @@ The only exception is the code linked in from the Delphi RTL and VCL libraries. 
 
 This is all covered in detail in the file [`Build.html`](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Build.html)<sup>1 2</sup> that can be found in the "root" of each source code release.
 
-<sup>1</sup> the linked file relates to the current release. Versions for other releases etc. may vary. Look at the file `Build.html` for the release you are interested in.
+<sup>**1**</sup> the linked file relates to the current release. Versions for other releases etc. may vary. Look at the file `Build.html` for the release you are interested in.
 
-<sup>2</sup> v3.0.x releases do not have a `Build.html` file. Look instead for `Docs/ReadMe-Src.txt`.
+<sup>**2**</sup> v3.0.x releases do not have a `Build.html` file. Look instead for `Docs/ReadMe-Src.txt`.
 
 ## FAQ 5
 
@@ -71,7 +71,7 @@ This is all covered in detail in the file [`Build.html`](https://htmlpreview.git
 
 No, sorry.
 
-The code base might, with a few changes, compile with Delphi 2009/2010, but that is not guaranteed. But, since the code now assumes that string = UnicodeString it definitely can't be compiled with anything before Delphi 2009.
+The code base might, with a few changes, compile with Delphi 2009/2010, but that is not guaranteed. But, since the code now assumes that `string = UnicodeString` it definitely can't be compiled with anything before Delphi 2009.
 
 ## FAQ 6
 
@@ -105,13 +105,13 @@ If you want to use any MPLd code in a GPL or LGPL project please read [FAQ 10](#
 
 Footnotes:
 
-<sup>1</sup> "Advertise" means you must mention that your product uses MPLd code in some suitable place in your documentation, help files, about box etc. The documentation must also tell users how to obtain the source code. If you are using any MPL v1.1 files you must also acknowledge the names of their original developers.
+<sup>**1**</sup> "Advertise" means you must mention that your product uses MPLd code in some suitable place in your documentation, help files, about box etc. The documentation must also tell users how to obtain the source code. If you are using any MPL v1.1 files you must also acknowledge the names of their original developers.
 
-<sup>2</sup> In the case of unchanged source files you may link to the [CodeSnip Git repository](https://github.com/delphidabbler/codesnip) on GitHub, providing that you specify the names, paths and commit ids of the files you are using. Alternatively provide your own means of obtaining the files<sup>3</sup>.
+<sup>**2**</sup> In the case of unchanged source files you may link to the [CodeSnip Git repository](https://github.com/delphidabbler/codesnip) on GitHub, providing that you specify the names, paths and commit ids of the files you are using. Alternatively provide your own means of obtaining the files<sup>3</sup>.
 
-<sup>3</sup> Make your own arrangements for making the MPLd source code available to users of your project. You could upload the files to some web space and provide a URL in your documentation or distribute the source files with your product.
+<sup>**3**</sup> Make your own arrangements for making the MPLd source code available to users of your project. You could upload the files to some web space and provide a URL in your documentation or distribute the source files with your product.
 
-<sup>4</sup> "Suitable" here means that the version of the license you use should be the same as that covering the source file that the code was copied from. So what about the case of copying code from files covered by different versions of the license? Just don't do it!
+<sup>**4**</sup> "Suitable" here means that the version of the license you use should be the same as that covering the source file that the code was copied from. So what about the case of copying code from files covered by different versions of the license? Just don't do it!
 
 ## FAQ 8
 
@@ -125,7 +125,7 @@ Footnotes:
 
 <strike>Do not change the license on any code you modify. If you are submitting new source code units please license them using the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/) without an "Incompatible With Secondary Licenses" Notice. If you don't want to use the MPL v2.0 please discuss it with me by raising an issue on the [Github repo](https://github.com/delphidabbler/codesnip).</strike>
 
-<strike><sup>1</sup> For info on checking out code from the Git repository, see [FAQ 1](#faq-1).</strike>
+<strike><sup>**1**</sup> For info on checking out code from the Git repository, see [FAQ 1](#faq-1).</strike>
 
 ## FAQ 9
 
