@@ -2,7 +2,7 @@
 
 This FAQ is about using version 4 of the DelphiDabbler [**CodeSnip**](https://github.com/delphidabbler/codesnip) Code Snippets Repository Application.
 
-> If you have questions about compiling CodeSnip or using its source code please see the [Compiling & Source Code FAQ](./UsingCodeSnip.md).
+> If you have questions about compiling CodeSnip or using its source code please see the [Compiling & Source Code FAQ](./SourceCode.md).
 
 If you can't find an answer to your question below, and you've read the program's help file, create an issue on GitHub (GitHub account required).
 
