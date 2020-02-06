@@ -2,6 +2,11 @@
 
 Frequently asked questions about the DelphiDabbler CodeSnip program.
 
+There are two FAQs for CodeSnip:
+
+* [Using CodeSnip](./UsingCodeSnip.md)
+* [Compiling & Source Code](./SourceCode.md)
+
 ## License & Copyright
 
 The FAQs are licensed under the open source [Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/). The full text of the license is in the [`LICENSE`](./LICENSE) file.
