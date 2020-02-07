@@ -138,7 +138,7 @@ You need to get CodeSnip to pass this parameter to the compiler. The method depe
 
 The next time you test compile a snippet, CodeSnip will generate the required `-NS` option.
 
-#### Earlier versions
+### Earlier versions
 
 * Display the ***Configure Compilers*** dialogue box from the ***Tools | Configure Compilers*** menu option.
 * Select the Delphi XE2 compiler from the scrolling list on the left hand side of the dialogue box.
