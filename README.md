@@ -1,6 +1,6 @@
 # CodeSnip FAQ
 
-Frequently asked questions about the DelphiDabbler CodeSnip program.
+Frequently asked questions about the DelphiDabbler [CodeSnip](https://github.com/delphidabbler/codesnip) program.
 
 There are two FAQs for CodeSnip:
 
