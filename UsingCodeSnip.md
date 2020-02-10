@@ -92,7 +92,7 @@ You can temporarily disable proxy access by un-ticking the ***Use proxy server**
 
 Your password is stored in CodeSnip's config file in encrypted form. 
 
-> **WARNING: You must remember your proxy password it because CodeSnip *is not able* remind you of it.**
+> **WARNING: You must remember your proxy password because CodeSnip *is not able* remind you of it.**
 
 ## FAQ 6
 
