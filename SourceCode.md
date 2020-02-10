@@ -6,6 +6,8 @@ This FAQ is about compiling and using the source code of the DelphiDabbler [**Co
 
 If you can't find an answer to your question below, and you've read the program's help file, read-me etc., then create an issue on GitHub (GitHub account required).
 
+> Please note that **CodeSnip version 3 and earlier are no longer supported,** This FAQ covers version 4 only
+
 ## Contents
 
 1. [Where can I get the CodeSnip source code?](#faq-1)
@@ -43,13 +45,11 @@ Some other utilities are also needed. See the "Build Tools" section of [`Build.h
 
 **Is CodeSnip open source?**
 
-CodeSnip's original code is open source. The license used for most of the source code changed from v3 to v4.
+CodeSnip's original code is open source.
 
-* CodeSnip 3 and earlier, and the v4 preview and beta editions, use the [Mozilla Public License 1.1](http://www.mozilla.org/MPL/1.1/) for most of the original code.
+The [Mozilla Public License 2.0](http://www.mozilla.org/MPL/2.0/) is used for most of the original source code. For full details see the Source Code section of CodeSnip's [License file](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Docs/License.html)<sup>1</sup>.
 
-* CodeSnip 4, from the first release candidate, uses [Mozilla Public License 2.0](http://www.mozilla.org/MPL/2.0/) for most of the original code. For full details see the Source Code section of CodeSnip's [License file](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Docs/License.html)<sup>1</sup>.
-
-In both cases third party code uses a variety of open source licenses. Any third party libraries are also open source.
+Third party code uses a variety of open source licenses. Any third party libraries are also open source.
 
 The only exception is the code linked in from the Delphi RTL and VCL libraries. Given that you need Delphi to compile CodeSnip, that's not really an issue providing you don't distribute the Delphi library source code.
 
@@ -59,11 +59,9 @@ The only exception is the code linked in from the Delphi RTL and VCL libraries. 
 
 **How do I build CodeSnip from source?**
 
-This is all covered in detail in the file [`Build.html`](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Build.html)<sup>1 2</sup> that can be found in the "root" of each source code release.
+This is all covered in detail in the file [`Build.html`](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Build.html)<sup>1</sup> that can be found in the "root" of each source code release.
 
 <sup>**1**</sup> the linked file relates to the current release. Versions for other releases etc. may vary. Look at the file `Build.html` for the release you are interested in.
-
-<sup>**2**</sup> v3.0.x releases do not have a `Build.html` file. Look instead for `Docs/ReadMe-Src.txt`.
 
 ## FAQ 5
 
@@ -145,7 +143,7 @@ Whether the source code can be used in GPL / LGPL projects depends on the versio
 
 ### MPL v2.0
 
-If the source file is covered by the MPL v2.0 then it can usually be used in your project since the MPL v2.0 is compatible with the GPL and LGPL.
+If the source file is covered by the MPL v2.0 then it can usually be used in your GPL or LGPL project since the MPL v2.0 is compatible with the GPL and LGPL.
 
 There is an exception though. MPL v2.0 files may carry an "Incompatible With Secondary Licenses" notice which reads:
 
