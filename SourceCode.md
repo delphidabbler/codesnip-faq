@@ -29,7 +29,7 @@ The best place is the [CodeSnip Git repository](https://github.com/delphidabbler
 
 CodeSnip 4 is now developed using the [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) methodology. The latest release of CodeSnip is available from the `master` branch. Development takes place on branches off develop. Tags in the form `version-x.x.x` are used to denote each release, where `x.x.x` is the version number of the release.
 
-At present GitFlow is not used for CodeSnip 5 development. This is presently developed in the `pavilion` branch. Earlier attempts at CodeSnip 5 used the `parsnip` and `pagoda` branches. `parsnip` has been removed from Git.
+> You may also come across branches named  `pavilion` and `pagoda`. These were used for a couple abortive attempts to develop CodeSnip v5. They've been left in place because they contain some code that may be useful in future releases.
 
 ## FAQ 2
 
@@ -119,7 +119,7 @@ Footnotes:
 
 <strike>Contributions are welcome. Just fork the project's [Git repository](https://github.com/delphidabbler/codesnip) and create a feature branch off the `develop` branch. Commit your changes to your feature branch then submit a pull request when ready.<sup>1</sup></strike>
 
-> <strike>If you are contributing to CodeSnip 5 development please create your feature branch off the `pavilion` branch instead.</strike>
+> <strike>**Do not contribute code based on the `pavilion` and `pagoda` branches. They are not being actively developed.**</strike>
 
 <strike>Do not change the license on any code you modify. If you are submitting new source code units please license them using the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/) without an "Incompatible With Secondary Licenses" Notice. If you don't want to use the MPL v2.0 please discuss it with me by raising an issue on the [Github repo](https://github.com/delphidabbler/codesnip).</strike>
 
