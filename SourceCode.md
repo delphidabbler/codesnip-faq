@@ -115,7 +115,7 @@ Footnotes:
 
 **How do I contribute code / bug fixes to the project?**
 
-> ####***At present the future of CodeSnip is uncertain. Until this is resolved code contributions are not being accepted.***
+> ***At present some significant changes CodeSnip are being made for when the delphidabbler.com web services it uses cease to work. Until the next release (v4.16.0) is completed, code contributions are not being accepted.***
 
 <strike>Contributions are welcome. Just fork the project's [Git repository](https://github.com/delphidabbler/codesnip) and create a feature branch off the `develop` branch. Commit your changes to your feature branch then submit a pull request when ready.<sup>1</sup></strike>
 
