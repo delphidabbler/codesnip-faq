@@ -68,15 +68,33 @@ The standard edition makes the following changes to the host system:
 
 **What personal information is stored by CodeSnip?**
 
-See the program's privacy statement for details. This can be displayed by starting CodeSnip and selecting the ***Help | Privacy Statement*** menu option. There's also a file called `Privacy.txt` installed with CodeSnip with identical content to the help file topic.
+This depends on the version of CodeSnip being used.
 
-Different versions of CodeSnip may have different privacy statements.
+### CodeSnip version 4.16.0 and later
+
+No personal data is stored.
+
+### Earlier versions
+
+See the program's privacy statement for details. This can be displayed by starting CodeSnip and selecting the ***Help | Privacy Statement*** menu option. There's also a file named `Privacy.txt` installed with CodeSnip that provides the same information.
+
+Different versions of the programs may have different privacy statements.
 
 ## FAQ 5
 
 **How do I get CodeSnip to use a proxy server to access the internet?**
 
-Start CodeSnip then do the following:
+This answer depends on which version of the program is being used.
+
+### CodeSnip version 4.16.0 and later
+
+CodeSnip does not access the internet directly so there is no need for a proxy server.
+
+> **Note:** The program does display some web links in your default web browser. In this case the browser's proxy server will be used.
+
+### Earlier versions
+
+These versions of CodeSnip do access the internet directly and support the use of a proxy server. To configure the proxy server do the following:
 
 * Select the ***Tools | Proxy Server*** menu option to display the ***Proxy Server Configuration*** dialogue box.
 * Tick the ***Use proxy server*** check box.
