@@ -75,9 +75,13 @@ The code base might, with a few changes, compile with Delphi 2009/2010, but that
 
 **Will you publish the PHP source code for the web services that CodeSnip accesses?**
 
-Sorry but no. CodeSnip is open source but the scripts that drive my website are not. To publish all the relevant code would be a security risk.
+> **Note 1:** CodeSnip v4.16.0 and later no longer use any web services.
 
-However, for each web service CodeSnip uses, there's a separate unit in the source code. In those units you'll find documentation about how to access the web services.
+> **Note 2:** The delphidabbler web services were due to close down in June 2020.
+
+No, I'm not releasing the web server source code. Sorry. The code is not open source.
+
+Why? Two reasons. Firstly the code is a mess! It has dependencies throughout the entire web site code base. Secondly, releasing the code could compromise security.
 
 > **Note:** On 15 June 2020 the delphidabbler.com website will close down. After this date the web services will stop working.
 
@@ -115,15 +119,13 @@ Footnotes:
 
 **How do I contribute code / bug fixes to the project?**
 
-> ***At present some significant changes CodeSnip are being made for when the delphidabbler.com web services it uses cease to work. Until the next release (v4.16.0) is completed, code contributions are not being accepted.***
+Contributions are welcome. Just fork the project's [Git repository](https://github.com/delphidabbler/codesnip) and create a feature branch off the `develop` branch. Commit your changes to your feature branch then submit a pull request when ready.<sup>1</sup>
 
-<strike>Contributions are welcome. Just fork the project's [Git repository](https://github.com/delphidabbler/codesnip) and create a feature branch off the `develop` branch. Commit your changes to your feature branch then submit a pull request when ready.<sup>1</sup></strike>
+> **Do not contribute code based on the `pavilion` and `pagoda` branches. They are not being actively developed.**
 
-> <strike>**Do not contribute code based on the `pavilion` and `pagoda` branches. They are not being actively developed.**</strike>
+Do not change the license on any code you modify. If you are submitting new source code units please license them using the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/) without an "Incompatible With Secondary Licenses" Notice. If you don't want to use the MPL v2.0 please discuss it with me by raising an issue on the [Github repo](https://github.com/delphidabbler/codesnip).
 
-<strike>Do not change the license on any code you modify. If you are submitting new source code units please license them using the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/) without an "Incompatible With Secondary Licenses" Notice. If you don't want to use the MPL v2.0 please discuss it with me by raising an issue on the [Github repo](https://github.com/delphidabbler/codesnip).</strike>
-
-<strike><sup>**1**</sup> For info on checking out code from the Git repository, see [FAQ 1](#faq-1).</strike>
+<sup>**1**</sup> For info on checking out code from the Git repository, see [FAQ 1](#faq-1).
 
 ## FAQ 9
 
