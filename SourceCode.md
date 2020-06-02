@@ -75,15 +75,13 @@ The code base might, with a few changes, compile with Delphi 2009/2010, but that
 
 **Will you publish the PHP source code for the web services that CodeSnip accesses?**
 
-> **Note 1:** CodeSnip v4.16.0 and later no longer use any web services.
-
-> **Note 2:** The delphidabbler web services were due to close down in June 2020.
-
 No, I'm not releasing the web server source code. Sorry. The code is not open source.
 
 Why? Two reasons. Firstly the code is a mess! It has dependencies throughout the entire web site code base. Secondly, releasing the code could compromise security.
 
-> **Note:** On 15 June 2020 the delphidabbler.com website will close down. After this date the web services will stop working.
+> **Note 1:** CodeSnip v4.16.0 and later no longer use any web services.
+
+> **Note 2:** The delphidabbler web services were due to close down in June 2020.
 
 ## FAQ 7
 
