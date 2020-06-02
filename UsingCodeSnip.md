@@ -48,7 +48,7 @@ Full details of changes are given in the program's ReadMe file, `ReadMe.txt`. An
 
 There are two editions of CodeSnip 4: standard and portable. You can tell the difference by looking at the main window caption. The caption of the portable edition includes the word "Portable"!
 
-The portable edition makes no changes to the host operating system - it writes all its configuration data is written into the folder from which it is run.
+The portable edition makes no changes to the host operating system - it writes all its configuration data into the folder from which it is run.
 
 The standard edition makes the following changes to the host system:
 
