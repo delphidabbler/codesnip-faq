@@ -38,7 +38,7 @@ Snippets downloaded from the on-line database are read-only. If you could edit t
 
 However, you *can* create a user defined snippet with the same name as one from the on-line database and copy the source code of the read only snippet into it.
 
-The easiest way to do this is to make duplicate snippets easily by using the ***Snippets | Duplicate Snippet*** menu option or by pressing `Shift+Ctrl+D`.
+The easiest way to do this is to select the read-only snippet then choose the ***Snippets | Duplicate Snippet*** menu option (or press `Shift+Ctrl+D`). This creates a duplicate snippet that can be edited.
 
 ## FAQ 3
 
