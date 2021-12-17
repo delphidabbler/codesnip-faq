@@ -20,6 +20,7 @@ If you can't find an answer to your question below, and you've read the program'
 8. [How do I contribute code / bug fixes to the project?](#faq-8)
 9. [How do I use TortoiseSVN to check out the CodeSnip source code?](#faq-9)
 10. [Can I use CodeSnip source code in my GPL or LGPL licensed project?](#faq-10)
+11. [Why are you still using Delphi XE to compile CodeSnip?](#faq-11)
 
 ## FAQ 1
 
@@ -158,3 +159,17 @@ If you include MPL 2.0 code in your project you must distribute a full copy of t
 The MPL v1.1 and the GPL / LGPL are not considered to be compatible. Therefore you can't use MPL v1.1 code in your project.
 
 There is an exception in the case of source code covered by the MPL / GPL / LGPL tri-license which is GPL / LGPL compatible.
+
+## FAQ 11
+
+**Why are you still using Delphi XE to compile CodeSnip?**
+
+When Delphi XE2 was released I attempted to compile CodeSnip with it but XE2 would not compile it. The reason was that XE2 ran out of memory! A complete restructure of the program into separately compiled libraries would have been required to get the program to compile. That wasn't (and still isn't) something I'm prepared to do.
+
+I eventually updated to Delphi XE4 and that had the aame problem. 
+
+After XE4 I didn't update Delphi for a long time. Not until 2021, in fact, when I acquired Delphi 10.4 Sydney followed by Delphi 11 Alexandria.
+
+Now Delphi 11 _will_ compile CodeSnip without choking. But there have been sufficient changes in the compiler and libraries to make the compilation fail. However a few changes to CodeSnip's source code do enable compilation to succeed, albeit with numerous warnings and hints. The trouble now is that the Delphi 11 compiled program crashes on closure with a memory access error. The original code compiled with Delphi XE is fine. After several hours of debugging I have failed to track down the problem with the Delphi 11 compiled code.
+
+So, at least for now, it's XE or nothing I'm afraid.
