@@ -36,7 +36,7 @@ CodeSnip 4 is now developed using the [Git Flow](http://nvie.com/posts/a-success
 
 **Which compiler is needed to compile CodeSnip?**
 
-CodeSnip is written in Delphi Object Pascal. The current code base is compiled using Delphi XE. Later Delphi compilers may be suitable, but this has not been tested.
+CodeSnip is written in Delphi Object Pascal. The current code base is compiled using Delphi XE. See [FAQ 11](#faq-11) for a  explanation.
 
 Some other utilities are also needed. See the "Build Tools" section of [`Build.html`](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Build.html)<sup>1</sup> for details.
 
@@ -80,9 +80,9 @@ No, I'm not releasing the web server source code. Sorry. The code is not open so
 
 Why? Two reasons. Firstly the code is a mess! It has dependencies throughout the entire web site code base. Secondly, releasing the code could compromise security.
 
-> **Note 1:** CodeSnip v4.16.0 and later no longer use any web services.
-
-> **Note 2:** The delphidabbler web services were due to close down in June 2020.
+> **Note 1:** CodeSnip v4.16.0 and later no longer use web services.
+> 
+> **Note 2:** The delphidabbler web services closed down in June 2020.
 
 ## FAQ 7
 
