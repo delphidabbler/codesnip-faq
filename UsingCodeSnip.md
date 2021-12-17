@@ -16,7 +16,7 @@ If you can't find an answer to your question below, and you've read the program'
 4. [What personal information is stored by CodeSnip?](#faq-4)
 5. [How do I get CodeSnip to use a proxy server to access the internet?](#faq-5)
 6. [How do I cross-reference my snippets using the "See also" field?](#faq-6)
-7. [Delphi XE2 generates a "F1026 File not Found ?????.dcu" error when test compiling snippets. What's going wrong?](#faq-7)
+7. [Delphi XE2 and later compilers generate a "F1026 File not Found ?????.dcu" error when test compiling snippets. What's going wrong?](#faq-7)
 8. [Why can't my portable edition of CodeSnip see the snippets I created in the standard edition (and vice versa)?](#faq-8)
 
 ## FAQ 1
@@ -133,25 +133,23 @@ Note that you can't edit the cross-references for snippets from the online datab
 
 ## FAQ 7
 
-**Delphi XE2 generates a "F1026 File not Found ?????.dcu" error when test compiling snippets. What's going wrong?**
+**Delphi XE2 and later compilers generate a "F1026 File not Found ?????.dcu" error when test compiling snippets. What's going wrong?**
 
-> **Note:** This FAQ applies equally well to Delphi XE3 to Delphi 10 Seattle. Whenever "XE2" is mentioned, read "XE3", "XE4", "XE5", "XE6", "XE7", "XE8" or "10 Seattle" as appropriate.
+This error is caused when Delphi can't find one of the RTL or VCL units referenced by the snippet being compiled.
 
-This error is caused when Delphi XE2 can't find one of the RTL or VCL units referenced by the snippet being compiled.
-
-XE2 organises most of these units into "namespaces", meaning that the unit names must be qualified by prepending the name of the namespace. For example `SysUtils` belongs to the `System` namespace and its fully qualified name is `System.SysUtils`.
+Delphi XE2 and later organise most of these units into "namespaces", meaning that the unit names must be qualified by prepending the name of the namespace. For example `SysUtils` belongs to the `System` namespace and its fully qualified name is `System.SysUtils`.
 
 The problem arises because CodeSnip does not use fully qualified unit names when test compiling. This is for reasons of backward compatibility with older versions of Delphi.
 
-However, Delphi XE2 provides a command line option that lets you specify a list of namespaces to be searched when it encounters unqualified unit names. This is the `-NS` option. You append a semi-colon separated list of namespaces to be searched to the command, for example: `-NSSystem;Vcl;Vcl.Bind`
+However, Delphi provides a command line option that lets you specify a list of namespaces to be searched when it encounters unqualified unit names. This is the `-NS` option. You append a semi-colon separated list of namespaces to be searched to the command, for example: `-NSSystem;Vcl;Vcl.Bind`
 
 You need to get CodeSnip to pass this parameter to the compiler. The method depends on the version of CodeSnip you are using.
 
 ### CodeSnip v4.3 and later
 
 * Display the ***Configure Compilers*** dialogue box from the ***Tools | Configure Compilers*** menu option.
-* Select the Delphi XE2 compiler from the scrolling list on the left hand side of the dialogue box.
-* Select the ***Namespaces*** tab.
+* Select the required Delphi compiler from the scrolling list on the left hand side of the dialogue box.
+* Select the ***Namespaces*** tab. _Note that this tab is present only when the selected compiler is Delphi XE2 or later._
 * Add each of the required namespaces in turn by entering them in the edit box and pressing the ***Add*** button. You can also press the ***Default*** button to provide a set of default namespaces that contain the most commonly used units. This list can be added to.
 * Click ***OK*** to update the compiler options.
 
@@ -160,7 +158,7 @@ The next time you test compile a snippet, CodeSnip will generate the required `-
 ### Earlier versions
 
 * Display the ***Configure Compilers*** dialogue box from the ***Tools | Configure Compilers*** menu option.
-* Select the Delphi XE2 compiler from the scrolling list on the left hand side of the dialogue box.
+* Select the required Delphi compiler from the scrolling list on the left hand side of the dialogue box.
 * Select the ***Switches*** tab (named ***Command Line*** on some versions of CodeSnip).
 * Check to see if a `-NS` command is already present in the ***Switches*** list. If so, select it.
 * In the ***Add or edit switch*** box enter the required `-NS` command (or modify any existing command you selected in step 3). For example if your snippet uses `SysUtils` and `Windows` enter `-NSSystem;WinAPI`.
@@ -169,7 +167,7 @@ The next time you test compile a snippet, CodeSnip will generate the required `-
 
 From time to time you may need to add another namespace. Just repeat the appropriate process above and add the necessary namespace(s).
 
-You can see a list of RTL and VCL namespaces, and the units they contain, in the Delphi XE2 or later help. The current list is in the [*Unit Scope Names*](http://docwiki.embarcadero.com/RADStudio/Rio/en/Unit_Scope_Names) topic of the RADStudio documentation.
+You can see a list of RTL and VCL namespaces, and the units they contain, in the Delphi help. The current list is in the [*Unit Scope Names*](https://docwiki.embarcadero.com/RADStudio/Rio/en/Unit_Scope_Names) topic of the RADStudio documentation.
 
 At the time of writing, the following namespaces are required to compile all the code in the online Code Snippets Database:
 
