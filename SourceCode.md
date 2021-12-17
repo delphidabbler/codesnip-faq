@@ -166,7 +166,7 @@ There is an exception in the case of source code covered by the MPL / GPL / LGPL
 
 When Delphi XE2 was released I attempted to compile CodeSnip with it but XE2 would not compile it. The reason was that XE2 ran out of memory! A complete restructure of the program into separately compiled libraries would have been required to get the program to compile. That wasn't (and still isn't) something I'm prepared to do.
 
-I eventually updated to Delphi XE4 and that had the aame problem. 
+I eventually updated to Delphi XE4 and that had the same problem. 
 
 After XE4 I didn't update Delphi for a long time. Not until 2021, in fact, when I acquired Delphi 10.4 Sydney followed by Delphi 11 Alexandria.
 
