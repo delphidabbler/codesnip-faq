@@ -11,5 +11,5 @@ There are two FAQs for CodeSnip:
 
 The FAQs are licensed under the open source [Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/). The full text of the license is in the [`LICENSE`](./LICENSE) file.
 
-Copyright © 2020, [Peter Johnson](https://en.gravatar.com/delphidabbler). This copyright statement must be included in any attribution under the terms of the license.
+Copyright © 2022, [Peter Johnson](https://en.gravatar.com/delphidabbler). This copyright statement must be included in any attribution under the terms of the license.
 
