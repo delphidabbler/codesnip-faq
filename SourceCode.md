@@ -173,3 +173,6 @@ After XE4 I didn't update Delphi for a long time. Not until 2021, in fact, when 
 Now Delphi 11 _will_ compile CodeSnip without choking. But there have been sufficient changes in the compiler and libraries to make the compilation fail. However a few changes to CodeSnip's source code do enable compilation to succeed, albeit with numerous warnings and hints. The trouble now is that the Delphi 11 compiled program crashes on closure with a memory access error. The original code compiled with Delphi XE is fine. After several hours of debugging I have failed to track down the problem with the Delphi 11 compiled code.
 
 So, at least for now, it's XE or nothing I'm afraid.
+
+> **Note:** I have started a new [`belvedere`](https://github.com/delphidabbler/codesnip/tree/belvedere) branch of the delphidabbler/codesnip repo on GitHub that is supposed to be a ground up rewrite of CodeSnip. Delphi 11 is being used for that. Unfortunately progress is glacial and I'm not sure if it will get much love!
+> 
