@@ -221,4 +221,4 @@ Make sure you follow the instructions in order.
 7. If you exported snippets from CodeSnip B then switch back to CodeSnip A and import the snippets from `B.csexp`. Use the same method described in steps 5 & 6.
 8. All done. If you close and reopen both editions you should see the merged databases.
 
-If anything went wrong you can restore the database(s) from the backups you took at step 2. Use the _Database | Restore user database_ menu option to do this. Unfortunately if you need to clear a database you have to delete the snippets one by one!
+If anything went wrong you can restore the database(s) from the backups you took at step 2. Use the _Database | Restore user database_ menu option to do this. If you need to clear a database then it will really help if you have CodeSnip v4.20.0 or later, because that version introduced the _Database | Delete User Database_ option that clears all the snippets from a database. If you have an earlier version you're out of luck and will have to delete the snippets one by one! Once again **take a backup** before deleting anything.
