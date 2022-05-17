@@ -191,13 +191,13 @@ So now we see that the portable edition and standard edition expect to find your
 
 ### Is there a way to copy the snippets over?
 
-Yes. In fact there are two methods, _**But** you must understand that any edits you make in the portable app won't be reflected in the standard edition and vice versa_ - and you now know why!
+Yes. In fact there are two methods, _**But** you must understand that any edits you make in the portable app won't be reflected in the standard edition and vice versa_ - and you now know why.
 
 > **WARNING: Do not attempt to copy the files manually. Use one of the methods below. If you do try this and it goes wrong don't come asking for help!**
 
 #### Method 1: quick & dangerous!
 
-> **WARNING: Use this method only if you are copying snippets to a CodeSnip installation that has no existing user defined snippets. They will be overwritten**
+> **WARNING: Use this method only if you are copying snippets to a CodeSnip installation that has no existing user defined snippets. If any exist they will be overwritten.**
 
 Follow these steps:
 
@@ -213,12 +213,14 @@ In this method we're going to merge snippets from one edition of CodeSnip with t
 Make sure you follow the instructions in order.
 
 1. Start both editions of CodeSnip. We'll call them A and B. If only one edition has existing snippets, let that be CodeSnip A.
-2. **Important** Just in case anything goes wrong **take backups** of both snippets databases, If one of the databases is empty you can skip the backup for that one. Use the _Database | Backup database_ menu option to do this.
+2. **Important** Just in case anything goes wrong **take backups** of both snippets databases. Use the _Database | Backup database_ menu option to do this. If one of the databases is empty you can skip the backup for that one.
 3. Switch to CodeSnip A and export your snippets to a single file by using the _Snippets | Export Snippets_ menu option. In the resulting dialogue box select all your snippets. Specify a file name (say `A.csexp`) and click OK.
-4. Switch to CodeSnip B. If it has snippets that you want to merge into CodeSnip A, then export those snippets using the same method as step 2. Name the file `B.csexp`.
-5. While still in CodeSnip B, import the snippets from `A.csexp` that you exported from CodeSnip A. Do this using the _Snippets | Import Snippets_ menu option. This displays the _Import Wizard_. Follow the instructions in the wizard to perform the import (it has a help topic if you get stuck). Importantly the wizard lets you resolve any name conflicts between imported and existing snippets. **Note:** This import can take a _long_ time, especially if you have a lot of snippets. The GUI will flash horribly during the process!
+4. Switch to CodeSnip B. If it has snippets that you want to merge into CodeSnip A, then export those snippets using the same method as described for CodeSnip A in step 3. Name the file `B.csexp`.
+5. While still in CodeSnip B, import the snippets from `A.csexp` that you exported from CodeSnip A. Do this using the _Snippets | Import Snippets_ menu option. This displays the _Import Wizard_. Follow the instructions in the wizard to perform the import. It has a help topic if you get stuck. Importantly the wizard lets you resolve any name conflicts between imported and existing snippets. **Note:** This import can take a _long_ time, especially if you have a lot of snippets. The GUI will flash horribly during the process.
 6. Save the snippets by using the _Database | Save User Database_ menu option.
 7. If you exported snippets from CodeSnip B then switch back to CodeSnip A and import the snippets from `B.csexp`. Use the same method described in steps 5 & 6.
 8. All done. If you close and reopen both editions you should see the merged databases.
 
-If anything went wrong you can restore the database(s) from the backups you took at step 2. Use the _Database | Restore user database_ menu option to do this. If you need to clear a database then it will really help if you have CodeSnip v4.20.0 or later, because that version introduced the _Database | Delete User Database_ option that clears all the snippets from a database. If you have an earlier version you're out of luck and will have to delete the snippets one by one! Once again **take a backup** before deleting anything.
+If anything went wrong you can restore the database(s) from the backups you took at step 2. Use the _Database | Restore user database_ menu option to do this.
+
+If you need to clear a database then, if you have CodeSnip v4.20.0 or later, use the _Database | Delete User Database_ option. If you have an earlier version you're out of luck and will have to delete the snippets one by one. Either way **take a backup** before deleting anything.
