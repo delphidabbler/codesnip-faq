@@ -98,7 +98,7 @@ If you do intend to distribute your project, then the following rules apply to t
 
 1. If you just use one or more source files unchanged you must not change the MPL license statement in the file's header comments. You must also advertise<sup>1</sup> that your product uses some MPLd code and provide a means by which users can obtain the source code<sup>2</sup>.
 2. If you modify one or more source files then leave the header comment relating to the license unchanged. You must then advertise<sup>1</sup> the use of MPLd code and provide a means to obtain the modified source files<sup>3</sup>.
-3. If you copy and paste some code from one of the MPLd source files into one of you own source files then that file must also adopt the MPL. You must add a suitable<sup>4</sup> MPL license block to the source file. As you will now expect you must advertise<sup>1</sup> that the product contains MPLd code and provide a means to obtain the relevant files<sup>3</sup>.
+3. If you copy and paste some code from one of the MPLd source files into one of your own source files then that file must also adopt the MPL. You must add a suitable<sup>4</sup> MPL license block to the source file. As you will now expect you must advertise<sup>1</sup> that the product contains MPLd code and provide a means to obtain the relevant files<sup>3</sup>.
 
 Using MPLd code from CodeSnip **does not** mean you have to make your other source files available. But there's no way out of complying with these requirements for MPLd code.
 
