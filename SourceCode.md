@@ -120,7 +120,7 @@ Footnotes:
 
 Contributions are welcome. Just fork the project's [Git repository](https://github.com/delphidabbler/codesnip) and create a feature branch off the `develop` branch. Commit your changes to your feature branch then submit a pull request when ready.<sup>1</sup>
 
-> **Do not contribute code based on the `pavilion` and `pagoda` branches. They are not being actively developed.**
+> **Do not contribute code based on the `pavilion`, `pagoda` or `belvedere` branches. They are not being actively developed.**
 
 Do not change the license on any code you modify. If you are submitting new source code units please license them using the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/) without an "Incompatible With Secondary Licenses" Notice. If you don't want to use the MPL v2.0 please discuss it with me by raising an issue on the [Github repo](https://github.com/delphidabbler/codesnip).
 
