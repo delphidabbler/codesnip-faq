@@ -28,9 +28,9 @@ If you can't find an answer to your question below, and you've read the program'
 
 The best place is the [CodeSnip Git repository](https://github.com/delphidabbler/codesnip) on GitHub.
 
-CodeSnip 4 is now developed using the [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) methodology. The latest release of CodeSnip is available from the `master` branch. Development takes place on branches off develop. Tags in the form `version-x.x.x` are used to denote each release, where `x.x.x` is the version number of the release.
+CodeSnip 4 is now developed using the [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) methodology. The latest release of CodeSnip is available from the `master` branch. Development takes place on branches off `develop`. Tags in the form `version-x.x.x` are used to denote each release, where `x.x.x` is the version number of the release.
 
-> You may also come across branches named  `pavilion` and `pagoda`. These were used for a couple abortive attempts to develop CodeSnip v5. They've been left in place because they contain some code that may be useful in future releases.
+> You may also come across branches named  `pavilion`, `pagoda` and `belvedere`. These were all used for a couple abortive attempts to develop CodeSnip v5. They've been left in place because they contain some code that may be useful in future releases.
 
 ## FAQ 2
 
