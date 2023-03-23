@@ -36,7 +36,7 @@ CodeSnip 4 is now developed using the [Git Flow](http://nvie.com/posts/a-success
 
 **Which compiler is needed to compile CodeSnip?**
 
-CodeSnip is written in Delphi Object Pascal. The current code base is compiled using Delphi XE. See [FAQ 11](#faq-11) for a  explanation.
+CodeSnip is written in Delphi Object Pascal. The current code base is compiled using Delphi XE. See [FAQ 11](#faq-11) for an explanation.
 
 Some other utilities are also needed. See the "Build Tools" section of [`Build.html`](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Build.html)<sup>1</sup> for details.
 
