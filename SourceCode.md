@@ -170,12 +170,12 @@ I eventually updated to Delphi XE4 and that had the same problem.
 
 After XE4 I didn't update Delphi for a long time. Not until 2021, in fact, when I acquired Delphi 10.4 Sydney followed by Delphi 11 Alexandria.
 
-Now Delphi 11 _will_ compile CodeSnip without choking. But there have been sufficient changes in the compiler and libraries to make the compilation fail. However a few changes to CodeSnip's source code do enable compilation to succeed, albeit with numerous warnings and hints. The trouble now is that the Delphi 11 compiled program crashes on closure with a memory access error. Even worse, the UI is corrupted and the main menu is not displayed! The unaltered code compiled with Delphi XE is fine. After several hours of debugging I have failed to track down the problems with the Delphi 11 compiled code.
+Now Delphi 11 _will_ compile CodeSnip without choking. But there have been sufficient changes in the compiler and libraries to make the compilation fail. However a few changes to CodeSnip's source code do enable compilation to succeed, albeit with numerous warnings and hints. The trouble now is that the Delphi 11 compiled program crashes on closure with a memory access error. Even worse, the UI is corrupted and the main menu is not displayed! The unaltered code compiled with Delphi XE is fine. After several hours of investiagtion the number of bugs seems to be growing rather than reducing.
 
 So, at least for now, it's XE or nothing I'm afraid.
 
 > **Note:**
 > 
-> The previously announced attempt at a ground up rewrite of CodeSnip with Delphi 11 (code named [`belvedere`](https://github.com/delphidabbler/codesnip/tree/belvedere)) got nowhere and has been abandoned.
+> The previously announced attempt at a ground up rewrite of CodeSnip with Delphi 11 (code named [`belvedere`](https://github.com/delphidabbler/codesnip/tree/belvedere)) got nowhere and has been abandoned. A further, unannounced, attempt (code named [`caboli`](https://github.com/delphidabbler/codesnip/tree/caboli)) also failed.
 > 
-> Another, less ambitious, attempt to update to Delphi 11 is being considered, but has not yet been announced. Watch the [CodeSnip Blog](https://codesnip-app.blogspot.com/) for any future announcement.
+> One (final) attempt to update to Delphi 11 is being considered, but has not yet been announced. Watch the [CodeSnip Blog](https://codesnip-app.blogspot.com/) for any future announcement, but don't hold your breath.
