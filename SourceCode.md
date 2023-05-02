@@ -91,7 +91,7 @@ Why? Two reasons. Firstly the code is a mess! It has dependencies throughout the
 
 **I want to use some of the CodeSnip source code in my project, what are the rules?**
 
-The following assumes that the code is covered by the Mozilla Public License (MPL) [v1.1](http://www.mozilla.org/MPL/1.1/) or [v2.0](http://www.mozilla.org/MPL/2.0/).
+The following assumes that the code is covered by the Mozilla Public License (MPL) [v1.1](http://www.mozilla.org/MPL/1.1/) or [v2.0](http://www.mozilla.org/MPL/2.0/). Read CodeSnip's [License file](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Docs/License.html)<sup>5</sup> to find out which source files the MPL applies to. For files covered by other licenses, please read the appropriate license text.
  
 > **This answer is not authoritative** - please refer to the relevant license text for that. This is just a brief overview for which I make no warranty of accuracy. If this answer conflicts with the licenses then the relevant license takes precedence.
 
@@ -117,6 +117,8 @@ Footnotes:
 
 <sup>**4**</sup> "Suitable" here means that the version of the license you use should be the same as that covering the source file that the code was copied from. So what about the case of copying code from files covered by different versions of the license? Just don't do it!
 
+<sup>**5**</sup> This license file relates to the current release. Versions for other releases etc. may vary slightly. Look at the file `License.html` for the release you are interested in.
+
 ## FAQ 8
 
 **How do I contribute code / bug fixes to the project?**
@@ -135,7 +137,7 @@ You can't anymore. CodeSnip source has been moved to a [Git repository](https://
 
 **Can I use CodeSnip source code in my GPL or LGPL licensed project?**
 
-This answer covers files using the Mozilla Public License (MPL) [v1.1](http://www.mozilla.org/MPL/1.1/) or [v2.0](http://www.mozilla.org/MPL/2.0/). For other licenses, please read the license concerned and check out what the [Free Software Foundation](http://www.fsf.org/) has to say about it.
+This answer covers files using the Mozilla Public License (MPL) [v1.1](http://www.mozilla.org/MPL/1.1/) or [v2.0](http://www.mozilla.org/MPL/2.0/) only. Read CodeSnip's [License file](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Docs/License.html)<sup>1</sup> to find out which source files the MPL applies to. For files covered by other licenses, please read the appropriate license text and then check out what the [Free Software Foundation](http://www.fsf.org/) has to say about it.
 
 > **This answer is not authoritative** - please refer to the relevant license text for that. This is just a brief overview for which I make no warranty of accuracy. If this answer conflicts with the licenses then the relevant license takes precedence.
 
@@ -158,6 +160,8 @@ If you include MPL 2.0 code in your project you must distribute a full copy of t
 The MPL v1.1 and the GPL / LGPL are not considered to be compatible. Therefore you can't use MPL v1.1 code in your project.
 
 There is an exception in the case of source code covered by the MPL / GPL / LGPL tri-license which is GPL / LGPL compatible.
+
+<sup>**1**</sup> This license file relates to the current release. Versions for other releases etc. may vary slightly. Look at the file `License.html` for the release you are interested in.
 
 ## FAQ 11
 
