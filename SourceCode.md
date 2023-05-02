@@ -42,7 +42,7 @@ Some other utilities are also needed. See the "Build Tools" section of [`Build.h
 
 <sup>**1**</sup> the linked file relates to the current release. Versions for other releases etc. may vary. Look at the file `Build.html` for the release you are interested in.
 
-### FAQ 3
+## FAQ 3
 
 **Is CodeSnip open source?**
 
