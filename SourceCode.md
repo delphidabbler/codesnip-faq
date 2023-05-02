@@ -118,13 +118,9 @@ Footnotes:
 
 **How do I contribute code / bug fixes to the project?**
 
-Contributions are welcome. Just fork the project's [Git repository](https://github.com/delphidabbler/codesnip) and create a feature branch off the `develop` branch. Commit your changes to your feature branch then submit a pull request when ready.<sup>1</sup>
+Contributions are welcome.
 
-> ⚠️ The repository contains branches other than `master` and `develop` but ***none of these branches are accepting contributions.***
-
-Do not change the license on any code you modify. If you are submitting new source code units please license them using the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/) without an "Incompatible With Secondary Licenses" Notice. If you don't want to use the MPL v2.0 please discuss it with me by raising an issue on the [Github repo](https://github.com/delphidabbler/codesnip).
-
-<sup>**1**</sup> For info on checking out code from the Git repository, see [FAQ 1](#faq-1).
+Please read [`CONTRIBUTING.md`](https://github.com/delphidabbler/codesnip/blob/develop/CONTRIBUTING.md) on the CodeSnip GitHub repository for full details of how to make a contribution.
 
 ## FAQ 9
 
