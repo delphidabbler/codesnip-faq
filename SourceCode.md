@@ -50,9 +50,12 @@ CodeSnip's original code is open source.
 
 The [Mozilla Public License 2.0](http://www.mozilla.org/MPL/2.0/) is used for most of the original source code. For full details see the Source Code section of CodeSnip's [License file](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Docs/License.html)<sup>1</sup>.
 
-Third party code uses a variety of open source licenses. Any third party libraries are also open source.
+There are two exceptions:
 
-The only exception is the code linked in from the Delphi RTL and VCL libraries. Given that you need Delphi to compile CodeSnip, that's not really an issue providing you don't distribute the Delphi library source code.
+1. Code linked in from the Delphi RTL and VCL libraries. Given that you need Delphi to compile CodeSnip, that's not really an issue providing you don't distribute the Delphi library source code.
+2. The program's branding (including the program icon, splash screen and the words "DelphiDabbler" and "CodeSnip") may not be used in any software derived from the CodeSnip source code. CodeSnip's [License file](https://htmlpreview.github.io/?https://github.com/delphidabbler/codesnip/blob/master/Docs/License.html)<sup>1</sup> provides full details.
+
+Third party code uses a variety of open source licenses. Any third party libraries are also open source.
 
 <sup>**1**</sup> This license file relates to the current release. Versions for other releases etc. may vary slightly. Look at the file `License.html` for the release you are interested in.
 
